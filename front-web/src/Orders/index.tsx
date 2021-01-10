@@ -1,12 +1,13 @@
 import React from 'react';
+import StepsHeader from './StepsHeader';
 import './styles.css';
 
 
 const Orders = () => {
     return (
-        <nav className="main-navbar">
-            <a href="/" className="logo-text">DS Delivery</a>
-        </nav>
+        <div className="orders-container">
+            <StepsHeader />
+        </div>
     )
 }
 
